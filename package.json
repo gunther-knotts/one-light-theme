@@ -1,0 +1,35 @@
+{
+    "name": "one-light-theme",
+    "displayName": "Atom One Light",
+    "description": "Exact recreation of the Atom One Light theme from Atom IDE",
+    "version": "1.0.0",
+    "publisher": "Gunther Knotts",
+    "engines": {
+      "vscode": "^1.60.0"
+    },
+    "categories": [
+      "Themes"
+    ],
+    "contributes": {
+      "themes": [
+        {
+          "label": "Atom One Light Exact",
+          "uiTheme": "vs",
+          "path": "./themes/atom-one-light-theme.json"
+        }
+      ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gunther-knotts/one-light-theme"
+    },
+    "keywords": [
+      "theme",
+      "light theme",
+      "atom",
+      "one light",
+      "atom one light"
+    ],
+    "icon": "icon.png",
+    "license": "MIT"
+  }
